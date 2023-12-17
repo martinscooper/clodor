@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Latin Plants Gallery</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .list-group {
+        list-style: none;
+        padding: 0;
+      }
+
+      .list-group-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        border-bottom: 1px solid #dee2e6;
+      }
+
+      .list-group-item:last-child {
+        border-bottom: none;
+      }
+
+      .plant-info {
+        flex: 1;
+      }
+
+      .plant-info h5 {
+        margin: 0 0 10px;
+      }
+
+      .plant-info p {
+        margin: 0;
+      }
+
+      .plant-image {
+        max-width: 100px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Latin Plants Gallery</h1>
+      <ul class="list-group">
+        <!-- Plant 1 -->
+        <li class="list-group-item">
+          <div class="plant-info">
+            <h5>Plant Name 1 (Latin)</h5>
+            <p>Description of Plant 1.</p>
+          </div>
+          <img src="plant1.jpg" alt="Plant 1" class="plant-image" />
+        </li>
+
+        <!-- Plant 2 -->
+        <li class="list-group-item">
+          <div class="plant-info">
+            <h5>Plant Name 2 (Latin)</h5>
+            <p>Description of Plant 2.</p>
+          </div>
+          <img src="plant2.jpg" alt="Plant 2" class="plant-image" />
+        </li>
+
+        <!-- Add more plants as needed -->
+      </ul>
+    </div>
+  </body>
+</html>
