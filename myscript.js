@@ -4,13 +4,14 @@ const createItem = (name, desc, img) => {
   image.className = "card-image-top";
 
   const innerH3 = document.createElement("h5");
-  innerH3.className = "text-center card-title negative-margin";
+  innerH3.className = "text-center card-title ";
   innerH3.textContent = name;
   innerH3.style = "font-style: italic; backdrop-filter: blur(50px); border-radius: 15px"
 
   const innerP = document.createElement("p");
   innerP.innerHTML = desc;
-  innerP.className = "text-center lead card-text positive-margin";
+  innerP.className = "text-center lead card-text";
+  innerP.style = ""
 
   const contentDiv = document.createElement("div");
   contentDiv.className = "card-body";
@@ -25,6 +26,7 @@ const createItem = (name, desc, img) => {
   const divOuter = document.createElement("div");
   divOuter.className = "col-4";
   divOuter.appendChild(divInner);
+  divOuter.style="display: flex; align-self: stretch;"
 
   return divOuter;
 };
