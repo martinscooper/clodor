@@ -6,7 +6,7 @@ const createItem = (name, desc, img) => {
   const innerH3 = document.createElement("h5");
   innerH3.className = "text-center card-title ";
   innerH3.textContent = name;
-  innerH3.style = "font-style: italic; backdrop-filter: blur(50px); border-radius: 15px"
+  innerH3.style = "font-style: italic"
 
   const innerP = document.createElement("p");
   innerP.innerHTML = desc;
@@ -24,7 +24,7 @@ const createItem = (name, desc, img) => {
   divInner.appendChild(contentDiv);
 
   const divOuter = document.createElement("div");
-  divOuter.className = "col-4";
+  divOuter.className = "col-6 col-sm-6";
   divOuter.appendChild(divInner);
   divOuter.style="display: flex; align-self: stretch;"
 
