@@ -60,7 +60,7 @@ const names = [
 const desc = [
   "regame cada dos semanas con agua de té",
   "de boldo o manzanilla",
-  "o de peperina",
+  "o té de peperina",
 
   "a mi girame para mirar al sol",
   "o poneme de espaldas a la noche",
