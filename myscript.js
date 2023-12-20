@@ -24,7 +24,7 @@ const createItem = (name, desc, img) => {
   divInner.appendChild(contentDiv);
 
   const divOuter = document.createElement("div");
-  divOuter.className = "col-6 col-sm-4";
+  divOuter.className = "col-12 col-sm-4";
   divOuter.appendChild(divInner);
   divOuter.style = "display: flex; align-self: stretch;";
 
