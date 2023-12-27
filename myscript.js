@@ -95,10 +95,10 @@ new Array(21).fill(32).forEach((_, i) => {
 });
 
 const poem = document.getElementById("poem");
-poem.style = "margin-top: 30px;margin-bottom: 30px;"
+poem.style = "margin-top: 30px;margin-bottom: 30px;";
 const poemTitle = document.createElement("h4");
 poemTitle.innerHTML = "Instrucciones para regar un dpto";
-poemTitle.className = "pb-2"
+poemTitle.className = "pb-2";
 poem.appendChild(poemTitle);
 
 new Array(21).fill(32).forEach((_, i) => {
@@ -107,4 +107,8 @@ new Array(21).fill(32).forEach((_, i) => {
   line.className = "text-muted";
   line.className = `${line.className}`;
   poem.appendChild(line);
+
+  if (i % 3 === 2) {
+    poem.appendChild(document.createElement("br"));
+  }
 });
