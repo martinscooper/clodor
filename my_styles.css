@@ -1,0 +1,44 @@
+.poem {
+  /* Configure your background, layout, etcetera here */
+  display: flex;
+  flex-direction: column;
+}
+
+.back {
+  background-color: #e0fbff;
+}
+
+.poem ul,
+.poem ol {
+  list-style-type: none;
+}
+
+.poem li {
+  font-family: Times New Roman;
+  font-style: italic;
+  padding-bottom: 0.1em;
+  font-size: 25px;
+}
+
+.poem li:first-child::first-letter {
+  font-size: 35px;
+  font-style: italic;
+  padding-right: 1px;
+}
+
+.poem-title {
+  font-family: Times New Roman;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.plant-name {
+  font-family: Times New Roman;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.plant-description {
+  font-family: Times New Roman;
+  font-size: 18px;
+}
