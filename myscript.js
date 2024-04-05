@@ -63,31 +63,31 @@ const names = [
 ];
 
 const desc = [
-  "regame cada dos semanas con agua de té",
+  "Regame cada dos semanas con agua de té",
   "de boldo o manzanilla",
   "pero no de peperina",
 
-  "girame para mirar al Sol",
+  "Girame para mirar al Sol",
   "o poneme de espaldas a la noche",
   "o lo que sientas",
 
-  "googleame por rara",
+  "Googleame por rara",
   "solo vivo si",
   "me dejan morir",
 
-  "regame si querés",
+  "Regame si querés",
   "regame por las dudas",
   "regame ahora ya y siempre",
 
-  "pará, mejor no, no me riegues,",
+  "Pará, mejor no, no me riegues,",
   "y si me regás...",
   "no, mejor no me riegues",
 
-  "mejor contame un cuento",
+  "Mejor contame un cuento",
   "que trate",
   "de Dios",
 
-  "y que Dios sea",
+  "Y que Dios sea",
   "como siempre",
   "un deseo olvidado",
 ];
